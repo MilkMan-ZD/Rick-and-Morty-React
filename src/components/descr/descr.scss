@@ -1,0 +1,55 @@
+@import '../../style/variables.scss';
+
+.app {
+    &__first {
+        position: relative;
+        left: -40px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        gap: 83px;
+        margin-right: 110px;
+
+        img {
+            margin-top: 40px;
+        }
+    }
+
+    &__morty {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family: Roboto Condensed;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 60px;
+        box-shadow: black;
+
+        div {
+            margin-top: 40px;
+        }
+
+        .color {
+            background-color: #232222;
+            width: 260px;
+            height: 340px;
+            filter: grayscale(1);
+            transition: 1s;
+            // transform: perspective(1000px) rotateX(30deg) rotateY(0deg) rotateZ(20deg);
+        }
+
+        .color:hover {
+            box-shadow: 10px 10px 10px gray;
+            filter: grayscale(0);
+            animation: unset;
+            margin-top: 10px;
+            transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        }
+    }
+}

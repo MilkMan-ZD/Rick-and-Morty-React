@@ -1,0 +1,27 @@
+.app {
+    &__flex {
+        display: flex;
+        margin-top: 67px;
+        margin-left: 40px;
+        gap: 42px;
+    }
+
+    &__name {
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+        margin-bottom: 28px;
+    }
+
+    &__status {
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+}
